@@ -1,7 +1,7 @@
 package demo
 
 import (
-	"github.com/smm-h/stricttest/go/hygiene"
+	"github.com/stricttools/testisolation/go/hygiene"
 	"math"
 	"testing"
 )

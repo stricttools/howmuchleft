@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/smm-h/howmuchleft/internal/config"
-	"github.com/smm-h/stricttest/go/hygiene"
+	"github.com/stricttools/testisolation/go/hygiene"
 )
 
 func TestEnsureDefaultsCreatesConfig(t *testing.T) {

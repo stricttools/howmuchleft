@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/smm-h/stricttest/go/hygiene"
+	"github.com/stricttools/testisolation/go/hygiene"
 )
 
 // darkModeFixture isolates the environment, points the Claude configuration
