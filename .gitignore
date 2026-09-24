@@ -31,3 +31,8 @@ __pycache__/
 
 build/
 target/
+
+.rlsbl/releases/in-progress.json
+.rlsbl/releases/scrub-result.json
+.rlsbl-monorepo/releasables/*/releases/in-progress.json
+.rlsbl-monorepo/releasables/*/releases/scrub-result.json
