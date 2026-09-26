@@ -21,5 +21,9 @@ word = "howmuchleft"
 meaning = "This project: a Go statusline for Claude Code that shows context window, 5-hour, and weekly limit usage as three gradient bars."
 
 [[accepted]]
+word = "Radeon"
+meaning = "AMD's GPU brand, named in the benchmark machine's CPU description (integrated Radeon Graphics)."
+
+[[accepted]]
 word = "Ryzen"
 meaning = "AMD's CPU brand, named in the benchmark machine's CPU description."
