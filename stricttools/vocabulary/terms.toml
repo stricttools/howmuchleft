@@ -5,6 +5,10 @@ word = "ccline"
 meaning = "Short name of CCometixLine, a Claude Code statusline compared in the benchmark whose configuration format best-claude-hud shares."
 
 [[accepted]]
+word = "ccusage"
+meaning = "A Claude Code cost tracker distributed as an npm package, whose statusline mode is compared in the benchmark."
+
+[[accepted]]
 word = "cship"
 meaning = "A Claude Code statusline that renders one configurable line in the style of Starship, compared against howmuchleft in the benchmark."
 
