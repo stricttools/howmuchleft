@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "name": "howmuchleft",
   "slug": "howmuchleft",
   "version": "0.15.1",
@@ -1130,5 +1130,9 @@
   ],
   "posts": [],
   "last_gen": "2026-09-15T20:49:45.514749+00:00",
-  "theme": "minimal"
+  "theme": "minimal",
+  "vocabulary": {
+    "accepted": [],
+    "rejected": []
+  }
 }
