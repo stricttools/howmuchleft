@@ -4,7 +4,7 @@
   "directives": {
     "statusline-comparison": "scripts/statusline-comparison-directive.py"
   },
-  "repo": "https://github.com/smm-h/howmuchleft",
+  "repo": "https://github.com/stricttools/howmuchleft",
   "base_url": "https://smmh.dev/howmuchleft",
   "source": [
     {

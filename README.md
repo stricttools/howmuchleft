@@ -22,7 +22,7 @@ Works with Pro, Max 5x, Max 20x, and Team subscriptions. API key users see conte
 go install github.com/smm-h/howmuchleft@latest
 ```
 
-Pre-built binaries for all platforms are available on [GitHub Releases](https://github.com/smm-h/howmuchleft/releases).
+Pre-built binaries for all platforms are available on [GitHub Releases](https://github.com/stricttools/howmuchleft/releases).
 
 ## Setup
 

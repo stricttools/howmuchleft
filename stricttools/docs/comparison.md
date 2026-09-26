@@ -13,7 +13,7 @@ between a compiled binary and a Node.js script is something you can feel.
 
 This page is the measurement, not an argument. Every number here comes from
 `stricttools/docs/statusline-comparison.toml`, which
-[`scripts/compare-statuslines.sh`](https://github.com/smm-h/howmuchleft/blob/main/scripts/compare-statuslines.sh)
+[`scripts/compare-statuslines.sh`](https://github.com/stricttools/howmuchleft/blob/main/scripts/compare-statuslines.sh)
 writes when it is run, and which a selfdoc directive renders into the table
 below.
 
