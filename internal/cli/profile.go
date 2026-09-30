@@ -9,7 +9,7 @@ import (
 
 	tomledit "github.com/smm-h/go-toml-edit"
 
-	"github.com/smm-h/howmuchleft/internal/oauth"
+	"github.com/stricttools/howmuchleft/internal/oauth"
 )
 
 // resolveClaudeDir resolves the Claude configuration directory.

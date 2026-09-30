@@ -9,13 +9,13 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/smm-h/howmuchleft/internal/config"
-	"github.com/smm-h/howmuchleft/internal/dashboard"
-	"github.com/smm-h/howmuchleft/internal/demo"
-	"github.com/smm-h/howmuchleft/internal/git"
-	"github.com/smm-h/howmuchleft/internal/migrate"
-	"github.com/smm-h/howmuchleft/internal/platform"
-	"github.com/smm-h/howmuchleft/internal/render"
+	"github.com/stricttools/howmuchleft/internal/config"
+	"github.com/stricttools/howmuchleft/internal/dashboard"
+	"github.com/stricttools/howmuchleft/internal/demo"
+	"github.com/stricttools/howmuchleft/internal/git"
+	"github.com/stricttools/howmuchleft/internal/migrate"
+	"github.com/stricttools/howmuchleft/internal/platform"
+	"github.com/stricttools/howmuchleft/internal/render"
 	"github.com/smm-h/strictcli/go/strictcli"
 )
 

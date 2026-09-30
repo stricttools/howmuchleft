@@ -14,7 +14,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/smm-h/howmuchleft/internal/oauth"
+	"github.com/stricttools/howmuchleft/internal/oauth"
 )
 
 // Cache TTL constants.

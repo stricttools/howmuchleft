@@ -1,4 +1,4 @@
-module github.com/smm-h/howmuchleft
+module github.com/stricttools/howmuchleft
 
 go 1.25.7
 

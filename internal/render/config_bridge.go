@@ -1,7 +1,7 @@
 package render
 
 import (
-	"github.com/smm-h/howmuchleft/internal/config"
+	"github.com/stricttools/howmuchleft/internal/config"
 )
 
 // ConfigColorToRenderColor converts a config.ColorEntry to a render.ColorEntry.

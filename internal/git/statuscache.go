@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/smm-h/howmuchleft/internal/platform"
+	"github.com/stricttools/howmuchleft/internal/platform"
 )
 
 // StatusCacheDir is the directory, inside the Claude configuration directory,

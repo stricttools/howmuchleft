@@ -80,7 +80,7 @@
       "connections": []
     }
   },
-  "project_id": "github.com/smm-h/howmuchleft",
+  "project_id": "github.com/stricttools/howmuchleft",
   "name": "howmuchleft",
   "version": "0.16.0",
   "help": "The fastest Claude Code statusline: context window, 5-hour, and weekly limit usage as three customizable gradient bars, rendering in about 6 ms",

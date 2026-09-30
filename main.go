@@ -13,7 +13,7 @@ import (
 	"os"
 	"runtime/debug"
 
-	"github.com/smm-h/howmuchleft/internal/cli"
+	"github.com/stricttools/howmuchleft/internal/cli"
 )
 
 // Version is set by ldflags at build time: -X main.Version=x.y.z

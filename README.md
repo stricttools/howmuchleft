@@ -19,7 +19,7 @@ Works with Pro, Max 5x, Max 20x, and Team subscriptions. API key users see conte
 ## Install
 
 ```bash
-go install github.com/smm-h/howmuchleft@latest
+go install github.com/stricttools/howmuchleft@v0
 ```
 
 Pre-built binaries for all platforms are available on [GitHub Releases](https://github.com/stricttools/howmuchleft/releases).

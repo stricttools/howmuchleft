@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/smm-h/howmuchleft/internal/cache"
-	"github.com/smm-h/howmuchleft/internal/render"
+	"github.com/stricttools/howmuchleft/internal/cache"
+	"github.com/stricttools/howmuchleft/internal/render"
 )
 
 func TestDiscoverProfiles_IncludesDefault(t *testing.T) {

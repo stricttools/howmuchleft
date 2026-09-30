@@ -11,7 +11,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/smm-h/howmuchleft/internal/config"
+	"github.com/stricttools/howmuchleft/internal/config"
 )
 
 // modelRegex matches Claude model name patterns for shortening.

@@ -15,10 +15,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/smm-h/howmuchleft/internal/cache"
-	"github.com/smm-h/howmuchleft/internal/config"
-	"github.com/smm-h/howmuchleft/internal/oauth"
-	"github.com/smm-h/howmuchleft/internal/render"
+	"github.com/stricttools/howmuchleft/internal/cache"
+	"github.com/stricttools/howmuchleft/internal/config"
+	"github.com/stricttools/howmuchleft/internal/oauth"
+	"github.com/stricttools/howmuchleft/internal/render"
 )
 
 // DiscoverProfiles returns deduplicated profile directories from 3 sources:

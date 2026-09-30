@@ -10,8 +10,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/smm-h/howmuchleft/internal/config"
-	"github.com/smm-h/howmuchleft/internal/render"
+	"github.com/stricttools/howmuchleft/internal/config"
+	"github.com/stricttools/howmuchleft/internal/render"
 )
 
 const (

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/smm-h/howmuchleft/internal/config"
+	"github.com/stricttools/howmuchleft/internal/config"
 )
 
 func TestShortenModelName(t *testing.T) {

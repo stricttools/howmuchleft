@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/smm-h/howmuchleft/internal/oauth"
+	"github.com/stricttools/howmuchleft/internal/oauth"
 )
 
 // OldConfigPath returns the path to the legacy JSON config file.

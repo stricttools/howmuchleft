@@ -14,7 +14,7 @@ import (
 	"path/filepath"
 
 	tomledit "github.com/smm-h/go-toml-edit"
-	"github.com/smm-h/howmuchleft/internal/config"
+	"github.com/stricttools/howmuchleft/internal/config"
 )
 
 // Result reports what EnsureDefaults did to the config file.

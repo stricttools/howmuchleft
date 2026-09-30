@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/smm-h/howmuchleft/internal/config"
+	"github.com/stricttools/howmuchleft/internal/config"
 )
 
 // showConfig prints the configuration file path and resolved settings.
