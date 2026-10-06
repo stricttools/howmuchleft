@@ -4,7 +4,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/smm-h/strictcli/go/strictcli"
+	"github.com/stricttools/strictcli/go/strictcli"
 	"github.com/stricttools/testisolation/go/hygiene"
 )
 
@@ -43,7 +43,6 @@ var classification = map[string]struct {
 	effect        string
 	consequential bool
 }{
-	"version":           {strictcli.EffectMutating, false},
 	"colors":            {strictcli.EffectMutating, false},
 	"config":            {strictcli.EffectMutating, false},
 	"demo":              {strictcli.EffectMutating, false},

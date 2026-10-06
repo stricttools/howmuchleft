@@ -16,7 +16,7 @@ import (
 	"github.com/stricttools/howmuchleft/internal/migrate"
 	"github.com/stricttools/howmuchleft/internal/platform"
 	"github.com/stricttools/howmuchleft/internal/render"
-	"github.com/smm-h/strictcli/go/strictcli"
+	"github.com/stricttools/strictcli/go/strictcli"
 )
 
 var appVersion string
@@ -99,13 +99,6 @@ func RunGitCacheRefresh() bool {
 // classification_test.go pins the table.
 func NewApp() *strictcli.App {
 	app := strictcli.NewApp("howmuchleft", appVersion, "The fastest Claude Code statusline: context window, 5-hour, and weekly limit usage as three customizable gradient bars, rendering in about 6 ms")
-
-	// version
-	app.Command("version", "Print the version", func(ctx *strictcli.Context, kwargs map[string]interface{}) strictcli.Outcome {
-		runMigrations()
-		fmt.Println(appVersion)
-		return strictcli.Exit(0)
-	}, strictcli.WithEffect(strictcli.EffectMutating))
 
 	// profile group
 	profileGrp := app.Group("profile", "Install, remove and inspect the Claude Code profiles howmuchleft tracks: wire the statusLine into a profile's settings.json, take it back out again, and show every registered profile's token usage side by side in one dashboard")
