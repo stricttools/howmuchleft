@@ -1,0 +1,169 @@
+{
+  "schema_version": 2,
+  "defaults": {
+    "schema_version": 2,
+    "app": {
+      "env_prefix": null,
+      "config": false,
+      "config_format": "json",
+      "config_path": null,
+      "config_conflict_mode": "cli-wins",
+      "proc_observe_allowlist": [],
+      "global_flags": [],
+      "commands": {},
+      "groups": {},
+      "deprecated": {},
+      "tag_contracts": {},
+      "checks": {},
+      "config_fields": {},
+      "infra": {}
+    },
+    "flag": {
+      "short": null,
+      "env": null,
+      "env_separator": null,
+      "prefixed": true,
+      "choices": null,
+      "elect_by": null,
+      "unique": false,
+      "conflict_mode": null,
+      "negatable": null,
+      "nullable": false
+    },
+    "arg": {
+      "variadic": false,
+      "choices": null
+    },
+    "choice": {
+      "flags": []
+    },
+    "choice_record": {
+      "help": null
+    },
+    "command": {
+      "consequential": false,
+      "dry_run_supported": true,
+      "dry_run_unsupported_reason": null,
+      "update_of": null,
+      "write_mode": null,
+      "payload_schema": null,
+      "owns_stdout": false,
+      "passthrough": false,
+      "flags": [],
+      "flag_sets": [],
+      "args": [],
+      "tags": [],
+      "constraints": [],
+      "hidden": false,
+      "interactive": false,
+      "config_fields": [],
+      "grants": [],
+      "forwarding": null,
+      "requires": []
+    },
+    "group": {
+      "commands": {},
+      "groups": {},
+      "deprecated": {},
+      "tags": [],
+      "hidden": false
+    },
+    "config_field": {
+      "default": null,
+      "bound_commands": []
+    },
+    "check": {
+      "scope": null
+    },
+    "infra": {
+      "roots": [],
+      "handshakes": [],
+      "connections": []
+    }
+  },
+  "project_id": "github.com/stricttools/howmuchleft",
+  "name": "howmuchleft",
+  "version": "0.17.0",
+  "help": "The fastest Claude Code statusline: context window, 5-hour, and weekly limit usage as three customizable gradient bars, rendering in about 6 ms",
+  "commands": {
+    "demo": {
+      "name": "demo",
+      "help": "Run demo animation",
+      "effect": "mutating",
+      "args": [
+        {
+          "name": "duration_seconds",
+          "help": "Duration in seconds",
+          "value_schema": {
+            "type": "string"
+          },
+          "presence": "optional"
+        }
+      ]
+    },
+    "colors": {
+      "name": "colors",
+      "help": "Preview gradient colors for your terminal",
+      "effect": "mutating"
+    },
+    "config": {
+      "name": "config",
+      "help": "Show config file and current settings",
+      "effect": "mutating"
+    }
+  },
+  "groups": {
+    "profile": {
+      "name": "profile",
+      "help": "Install, remove and inspect the Claude Code profiles howmuchleft tracks: wire the statusLine into a profile's settings.json, take it back out again, and show every registered profile's token usage side by side in one dashboard",
+      "commands": {
+        "install": {
+          "name": "install",
+          "help": "Add howmuchleft as the statusLine in a Claude Code profile's settings.json, writing a command entry that points back at that profile directory, then register the profile so it shows up in the dashboard. Reports and overwrites a statusLine another tool configured, and changes nothing when howmuchleft is already installed there",
+          "effect": "mutating",
+          "args": [
+            {
+              "name": "dir",
+              "help": "Claude Code profile directory to operate on; defaults to $CLAUDE_CONFIG_DIR when that is set, and to ~/.claude otherwise. A leading ~ is expanded to your home directory",
+              "value_schema": {
+                "type": "string"
+              },
+              "presence": "optional"
+            }
+          ]
+        },
+        "uninstall": {
+          "name": "uninstall",
+          "help": "Remove howmuchleft's statusLine entry from a Claude Code profile's settings.json and unregister the profile so it no longer appears in the dashboard. Refuses to touch a statusLine that some other tool configured, printing it for inspection instead, and reports plainly when the profile has no statusLine at all",
+          "effect": "mutating",
+          "args": [
+            {
+              "name": "dir",
+              "help": "Claude Code profile directory to operate on; defaults to $CLAUDE_CONFIG_DIR when that is set, and to ~/.claude otherwise. A leading ~ is expanded to your home directory",
+              "value_schema": {
+                "type": "string"
+              },
+              "presence": "optional"
+            }
+          ]
+        },
+        "list": {
+          "name": "list",
+          "help": "Discover every registered Claude Code profile and render their token usage side by side in one dashboard, a row per profile. Prints a single snapshot and exits by default; with --live it redraws every 30 seconds until interrupted. Reports that none were found, and exits cleanly, when no profile has been registered yet",
+          "effect": "mutating",
+          "flags": [
+            {
+              "name": "live",
+              "help": "Redraw the dashboard every 30 seconds until interrupted, instead of printing a single snapshot and exiting immediately",
+              "value_schema": {
+                "type": "boolean"
+              },
+              "presence": "optional",
+              "negatable": true
+            }
+          ]
+        }
+      }
+    }
+  }
+}

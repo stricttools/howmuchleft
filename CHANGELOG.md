@@ -2,6 +2,15 @@
 
 # Changelog
 
+## 0.17.0
+
+The Go module path moves to github.com/stricttools/howmuchleft, and howmuchleft now builds on strictcli 0.38 and go-toml-edit 0.5 at their stricttools paths.
+
+### Breaking
+
+- **The Go module path moved to `github.com/stricttools/howmuchleft`.** The repository lives in the stricttools organization, so `github.com/smm-h/howmuchleft` is no longer this module's path: install with `go install github.com/stricttools/howmuchleft@v0`, and a program importing its packages changes its imports and `require` to the new path.
+- **`howmuchleft version` is now strictcli's framework command and prints `howmuchleft <version>` instead of the bare version number, and it no longer runs the settings migrations.** Scripts that parse its output must take the second word.
+
 ## 0.16.0
 
 The fastest Claude Code statusline, measured against the others by a reproducible harness: git ahead/behind and changed-file counts return through a detached two-second cache, the theme cache is two seconds, and the documentation moved onto selfdoc's .stricttools/ layout.
