@@ -2,7 +2,7 @@
   "schema_version": 2,
   "name": "howmuchleft",
   "slug": "howmuchleft",
-  "version": "0.15.1",
+  "version": "0.16.0",
   "description": "The fastest Claude Code statusline: context window, 5-hour, and weekly limit usage as three customizable gradient bars, rendering in about 6 ms",
   "language": "go",
   "base_url": "https://smmh.dev/howmuchleft",
@@ -1129,10 +1129,39 @@
     }
   ],
   "posts": [],
-  "last_gen": "2026-09-15T20:49:45.514749+00:00",
+  "last_gen": "2026-10-06T20:53:36.197983+00:00",
   "theme": "minimal",
   "vocabulary": {
-    "accepted": [],
+    "accepted": [
+      {
+        "word": "ccline",
+        "aliases": []
+      },
+      {
+        "word": "ccstatusline",
+        "aliases": []
+      },
+      {
+        "word": "ccusage",
+        "aliases": []
+      },
+      {
+        "word": "cship",
+        "aliases": []
+      },
+      {
+        "word": "howmuchleft",
+        "aliases": []
+      },
+      {
+        "word": "Radeon",
+        "aliases": []
+      },
+      {
+        "word": "Ryzen",
+        "aliases": []
+      }
+    ],
     "rejected": []
   }
 }
