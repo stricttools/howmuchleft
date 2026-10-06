@@ -4,7 +4,7 @@ Registered in selfdoc.json as ``statusline-comparison``. selfdoc runs this file
 through its Python driver and calls ``resolve(attrs, config, body) -> str``; the
 returned markdown replaces the ``:-: statusline-comparison`` directive line.
 
-The measurements come from ``stricttools/docs/statusline-comparison.toml``,
+The measurements come from ``.strictmetadata/docs/statusline-comparison.toml``,
 written by
 ``scripts/compare-statuslines.sh --run``. That file is the single source of
 every number on the comparison page, so no measurement is ever typed by hand
@@ -20,7 +20,7 @@ import os
 import tomllib
 from typing import Any
 
-DEFAULT_RESULTS = "stricttools/docs/statusline-comparison.toml"
+DEFAULT_RESULTS = ".strictmetadata/docs/statusline-comparison.toml"
 
 # The project whose page this is; its row says so.
 THIS_PROJECT = "howmuchleft"
