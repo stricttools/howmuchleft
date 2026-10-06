@@ -1,6 +1,6 @@
 +++
 title = "API Reference"
-description = "API reference index for howmuchleft covering 11 modules"
+description = "API reference index for release-checkout covering 11 modules"
 generated = true
 seeded = true
 nav_group = "API Reference"

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "name": "howmuchleft",
+  "name": "release-checkout",
   "slug": "howmuchleft",
   "version": "0.16.0",
   "description": "The fastest Claude Code statusline: context window, 5-hour, and weekly limit usage as three customizable gradient bars, rendering in about 6 ms",
@@ -1129,7 +1129,7 @@
     }
   ],
   "posts": [],
-  "last_gen": "2026-10-06T20:53:36.197983+00:00",
+  "last_gen": "2026-10-06T20:54:32.088076+00:00",
   "theme": "minimal",
   "vocabulary": {
     "accepted": [
