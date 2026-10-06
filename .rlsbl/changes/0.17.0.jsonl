@@ -1,0 +1,12 @@
+{"format_version":1,"id":"18d5e0495db84f031c7fc4709ed74b6e92a958eecedf4709","commits":["dd7afcd84f7a90227abe101108e87e47f630208c"],"user_facing":false}
+{"format_version":1,"id":"18d84c811a88a77839cdbacea4b14e2ab4e9b26636404f9c","commits":["27d63fdb99048c256dad6ff2bd68131132a931f4"],"user_facing":false}
+{"format_version":1,"id":"18d852997bdb461d07bb6a44372e4f0bb7c7e937484ffb0f","commits":["f83e31cc1d665e16ecca8f2e31feb0a00e508072"],"user_facing":false}
+{"format_version":1,"id":"18d8f826c6900e81487fbb227bf94ba3ae6eb85196ac7fb8","commits":["d642649d55950839cf4e9ce491d576433bfb96d2"],"user_facing":false}
+{"format_version":1,"id":"18d8fc7a3b052ef24043e18e155d4a2bafd51dbc62cedb6d","commits":["9c294adbc5ceeeb18b4300096e621d08ac21c3c7"],"user_facing":false}
+{"format_version":1,"id":"18da26c12680acac220cc8335cf0417da6693c7a1bcabff9","commits":["eea58eb38207b10a3ae16e4bf5d9c516a0d483da"],"user_facing":true,"description":"**The Go module path moved to `github.com/stricttools/howmuchleft`.** The repository lives in the stricttools organization, so `github.com/smm-h/howmuchleft` is no longer this module's path: install with `go install github.com/stricttools/howmuchleft@v0`, and a program importing its packages changes its imports and `require` to the new path.","type":"breaking"}
+{"format_version":1,"id":"18dc092f8b5da617ac2c585e9ea240aeba0fabc62d20caa2","commits":["67bef3be56830bda67e74ac87f6bb428321c7919"],"user_facing":false}
+{"format_version":1,"id":"18dc0c0743a6fa338b50bc446031491cbb7f6998ade8f511","commits":["3d27cc84cafafffab5a18e563c68c6b99d79f075"],"user_facing":true,"description":"**`howmuchleft version` is now strictcli's framework command and prints `howmuchleft <version>` instead of the bare version number, and it no longer runs the settings migrations.** Scripts that parse its output must take the second word.","type":"breaking"}
+{"format_version":1,"id":"18dc0c09a55586d5aad9170f48704f0d8facbc29871667ee","commits":["9936c08a79090a890d4e83ca8bc5d3ac72ddacf5"],"user_facing":false}
+{"format_version":1,"id":"18dc0c0af348f1cac20cc32c2f4447a59adab94f3cdf6466","commits":["0246efc66658b6f7dbbd601f028fdfb3b9cd6fab"],"user_facing":false}
+{"format_version":1,"id":"18dc0c104e41573dd68f7b9a7bda4496b2bcebd607539781","commits":["eeaf296a8465b541426e838dd5850d44f80219c8"],"user_facing":false}
+{"format_version":1,"id":"18dc0c1ab6f265401b6f3e933f6e46c89845899d2a6a784a","commits":["9357077fbdac80bf6f105de03f1e6ca301ad169d"],"user_facing":false}
