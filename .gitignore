@@ -8,7 +8,6 @@ howmuchleft
 # General
 *.log
 .DS_Store
-coverage/
 dist/
 .env
 .env.local

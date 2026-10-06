@@ -12,8 +12,8 @@
       "language": "go"
     }
   ],
-  "docs": "stricttools/docs/",
-  "output": "stricttools/.docs-cache/build/",
+  "docs": ".strictmetadata/docs/",
+  "output": ".strictmetadata/.docs-cache/build/",
   "versions": [
     {
       "version": "0.16.0"
