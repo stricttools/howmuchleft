@@ -8,3 +8,4 @@
 {"format_version":1,"id":"18dc0c0743a6fa338b50bc446031491cbb7f6998ade8f511","commits":["3d27cc84cafafffab5a18e563c68c6b99d79f075"],"user_facing":true,"description":"**`howmuchleft version` is now strictcli's framework command and prints `howmuchleft <version>` instead of the bare version number, and it no longer runs the settings migrations.** Scripts that parse its output must take the second word.","type":"breaking"}
 {"format_version":1,"id":"18dc0c09a55586d5aad9170f48704f0d8facbc29871667ee","commits":["9936c08a79090a890d4e83ca8bc5d3ac72ddacf5"],"user_facing":false}
 {"format_version":1,"id":"18dc0c0af348f1cac20cc32c2f4447a59adab94f3cdf6466","commits":["0246efc66658b6f7dbbd601f028fdfb3b9cd6fab"],"user_facing":false}
+{"format_version":1,"id":"18dc0c104e41573dd68f7b9a7bda4496b2bcebd607539781","commits":["eeaf296a8465b541426e838dd5850d44f80219c8"],"user_facing":false}
